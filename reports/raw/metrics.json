@@ -1,0 +1,71 @@
+{
+  "total_cost_usd": 7.2999999999999996e-06,
+  "llm_calls": 3,
+  "llm_successes": 2,
+  "llm_failures": 1,
+  "cost_note": "Successful responses only; timed-out/failed calls may still be billed by the provider",
+  "cost_mean_usd": 3.6499999999999998e-06,
+  "cost_p95_usd": 4.2999999999999995e-06,
+  "latency_mean_ms": 10.666666668839753,
+  "latency_p95_ms": 32.00000000651926,
+  "tickets": 22,
+  "ticket_cost_mean_usd": 0.0,
+  "ticket_cost_p95_usd": 0.0,
+  "fallback_fraction": 1.0,
+  "stages": {
+    "normalize": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 3.5909090921367435,
+      "p95_ms": 16.00000000325963
+    },
+    "detect_lang": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "extract": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.6818181811302731,
+      "p95_ms": 0.0
+    },
+    "classify": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.6818181824531745,
+      "p95_ms": 0.0
+    },
+    "retrieve_rules": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "similar_replies": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "generate_draft": {
+      "calls": 22,
+      "failures": 2,
+      "mean_ms": 198.81818181999154,
+      "p95_ms": 15.000000013969839
+    },
+    "all_rule_ids": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    },
+    "apply_guards": {
+      "calls": 22,
+      "failures": 1,
+      "mean_ms": 0.0,
+      "p95_ms": 0.0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+INFO:     Started server process [4312]
+INFO:     Waiting for application startup.
+classifier model models\category.joblib not found: safe defaults in use
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:50631 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50632 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50649 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50649 - "POST /triage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50649 - "POST /triage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50649 - "POST /triage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50649 - "POST /triage HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50649 - "POST /triage HTTP/1.1" 422 Unprocessable Entity

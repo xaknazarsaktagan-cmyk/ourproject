@@ -1,0 +1,12 @@
+data/
+.env
+.env.*
+!.env.example
+*.gz
+reports/raw/
+models/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
